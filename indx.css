@@ -1,5 +1,5 @@
 .home{
-    font-family: 'Brush Script MT';
+    font-family: "Nunito", sans-serif;
     font-size: 4.5em;
 }
 .first{
@@ -29,24 +29,7 @@
 .ml-6{
     margin-left: 2.5rem;
 }
-.btn1{
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    color: white;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-    background: crimson;
-}
-.btn1:hover{
-          background: transparent;    
-          color: crimson;
-}
+
 
 .btn2{
     background: crimson;
