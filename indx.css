@@ -17,6 +17,13 @@
 
 }
 
+@media (min-width : 768px){
+  .about-img{
+    margin-top: 5em !important;
+    height: 24em !important;
+  }
+}
+
 .rounded-circle-2{
  
   border: solid 5px !important;
