@@ -55,12 +55,7 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
 
-$("#toggler").click(function(){
-  $("#text").css("margin-left","-18em")
-  
- 
 
-})
 
 
 
