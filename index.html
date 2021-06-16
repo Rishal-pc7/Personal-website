@@ -1,295 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RISHAL</title>
-    <link rel="icon" href="Images/logo.jpg">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="indx.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link href="Libraries/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-           
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Personal Website </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet"
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
-    <header >
-        <nav class="navbar bg-secondary  navbar-expand-sm   fixed-top">
-          <a href="#" class="navbar-brand"><img src="Images/logo.jpg"  width="50" alt=""></a>
-          <button class="navbar-toggler navbar-dark"  style="border: none;" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-            
-          </button>
-          
-          <div class=" navbar-collapse collapse " id="navbarCollapse">
-          <ul class="navbar-nav  ml-md-auto  ">
-            <li class="nav-item ">
-            <a href="#home " class="nav-link   navbar-c">HOME</a>
-            
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link navbar-c" style="font-family: 'Poppins', sans-serif;" >ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a href="#services" class="nav-link navbar-c" style="font-family: 'Poppins', sans-serif;" >SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link navbar-c" style="font-family: 'Poppins', sans-serif;" >PROJECTS</a>
-          </li>
 
-          <li class="nav-item">
-            <a href="#contact" class="nav-link navbar-c "  style="font-family: 'Poppins', sans-serif;">CONTACT</a>
-          </li>
-          
+  
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
 
-          </ul>
-        </div>
-        </nav>
+      <h1 class="logo mr-auto" ><a href="index.html">Folio</a></h1>
+     
 
-    </header>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
    
-    <section>
+              
+            </ul>
           
-      <div id="home" class="intro route bg-image" style="background-image: url(Images/background.jpg)">
-        <div class="overlay-itro"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-            
-              
-              <p class="mt-5 intro-title" >I'M RISHAL</p>
-              
-              <p class="intro-subtitle text-danger"> <span class="text-white"> And I'm a </span><span class="txt-rotate text-danger" 
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <section id="hero">
+    <div class="hero-container">
+      <h2 >I'm <span class="" style="color: crimson">Rishal</span></h2>
+      <p>And I'm a <span class="txt-rotate text-danger" 
                 data-period="2000"
-                data-rotate='[  "Front-end-developer", "Freelancer" ]'>
+                data-rotate='[  "Web designer","Web developer" ,"Freelancer" ]'>
+                
                 
                 </span>  <strong class="text-slider"></strong></p>
-             
-            
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-     <section class="bg pt-4 pb-4 text-white" id="about">
-       <div class="container">
+                <a href="#about" class="btn btn-danger btnDanger scrollto">Get Started</a>
+      
+      
+    </div>
+  </section><!-- End Hero -->
 
-     
-     <div class="row">
-     <div class="col-md-6">
-       <img  class="img-fluid  about-img" src="Images/nyt.jpg" alt=""  style="height: 21em;">
-     </div>
-     <div class="col md-6 pt-3 pl-4">
-      <h1 class="text-center">About me</h1>
-      <hr style="border-color: crimson; width: 95%;">
-      <h4  class="mt-4 text-white" style="font-family: 'Poppins', sans-serif; font-size: 1.6em; font-weight: 300;">I'm Rishal and I'm a <span class="txt-rotate text-danger" 
-        data-period="2000"
-        data-rotate='[  "Front-end-developer", "Freelancer" ]'>
-        
-        </span> 
-      </h4>
-       <p class="mt-3" style="font-family: 'Poppins', sans-serif; font-size: 1.1em; font-weight: 200;">
-         I'm passionate about my work.Because I love what I do.I  don't have any experience in this field But I am sure I will make your website as your wish Because I have a very much knowledge about this field  I am very intrested to know something new and I am keep on researching day-by-day because I'm not ready to settle and I'm looking for good opportunities. 
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+              
+              
+              <h3 class="intro-subtitle text-danger"> <span class="text-dark">I'm Rishal  </span>And I'm a <span class="txt-rotate text-danger" 
+                data-period="2000"
+                data-rotate='[  "Web designer","Web developer" ,"Freelancer" ]'>
+                
+                
+                </span>  <strong class="text-slider"></strong></h3>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+      <p class="mt-3" style="font-family: 'Poppins', sans-serif; font-size: 1.1em; font-weight: 200;">
+        I'm a self-taught full-stack developer and
+         passionate about my work because I love what I do.I  don't have any experience in this field But I am sure If you give me a chance I will make the work as your wish Because I have a very much knowledge about this field because I am very intrested to know something new and I am keep on researching day-by-day because I'm not ready to settle and I'm looking for good opportunities. 
 
        </p>
- 
-     </div>
-    </div>
-  
-  </div>
-    </section>
-    <section class="bg1 pt-4 pb-4 text-white" id="services">
-      <h1 class="text-center">SERVICES</h1>
-      <hr style="border-color: crimson; width: 95%;">
+        
+            <a href="#contact" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
       <div class="container">
-  
-      
+
+        <div class="section-title">
+          <h2>Services</h2>
+
+         
+         
+        </div>
+
         <div class="row">
-           
-            
-  
-           <div class="col-md-6 col-12 col-sm-12 mt-4">
-            <div class="card bg-dark" style="height: 21rem;align-items: center;">
-              <p class="mt-5 btn btn-outline-primary rounded-circle-2 " style="width: 9em; height: 9em;"  > <i class="ion-monitor display-1 "></i></p>
-              
-              <div class="card-body">
-                <h5 class="card-title ">WEB DESIGNING</h5>
-             
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" style="width: 20.5em">
+              <div class="icon"><i class="icofont-paint"></i>
               </div>
+              <h4 class="title"><a href="">Web Design</a></h4>
+              <p class="description"> Web Designing Using HTML5/CSS3/Javascript/Jquery</p>
             </div>
-           </div>
-  
-           <div class="col-md-6 col-12 col-sm-12 mt-4">
-            <div class="card bg-dark" style="height: 21rem;align-items: center;">
-             
-            <p class="mt-5 btn btn-outline-primary rounded-circle-2 " style="width: 9em; height: 9em;"  > <i class="ion-android-phone-portrait display-1 "></i></p>
-              <div class="card-body ">
-                <h5 class="card-title  ">RESPONSIVE DESIGN</h5>
-             
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" style="width: 20.5em">
+              <div class="icon"><i class="icofont-responsive"></i>
               </div>
+              <h4 class="title"><a href="">Responsive Design</a></h4>
+              <p class="description">Responsive Designing Using Bootstrap </p>
             </div>
-           </div>
-  
-  
-  
-  
-  
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box"  style="width: 20.5em">
+              <div class="icon"><i class="icofont-code"></i>
+              </div>
+              <h4 class="title"><a href="">Web Development</a></h4>
+              <p class="description">Web Development Using Nodejs and Express</p>
+            </div>
+          </div>
+
+         
+
+        </div>
+
       </div>
-    </div>
+    </section><!-- End Services Section -->
+    
+    <section id="skills" class="services section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+         <div>
+           <span class="skill" >HTML <i class="val float-right">100%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+          <div>
+           <span class="skill" >CSS <i class="val float-right">85%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+          <div>
+           <span class="skill" >Javascript <i class="val float-right">90%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+          <div>
+           <span class="skill" >Jquery <i class="val float-right">80%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+          <div>
+           <span class="skill" >Node.js <i class="val float-right">85%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+          <div>
+           <span class="skill" >Mongodb <i class="val float-right">80%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+         
+          <div>
+           <span class="skill" >Express. js <i class="val float-right">95%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+          <div>
+           <span class="skill" > Bootstrap<i class="val float-right">90%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+         
+          <div>
+           <span class="skill" >GIT <i class="val float-right">85%</i></span>
+           
+           
+        <div class="progress  mr-auto">
+          
+          
+          <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+         </div>
+        
+      </div>
+      
     </section>
-  <section class="bg pt-4 pb-4 text-white" id="projects">
-    <h1 class="text-center">PROJECTS</h1>
-    <hr style="border-color: crimson; width: 95%;">
-    <div class="container">
-
-    
-      <div class="row">
-         
-          
-
-         <div class="col-md-6 col-12 col-sm-12 mt-4">
-          <div class="card bg-dark" >
-            <img class="card-img-top mx-auto mt-2" src="Images/coming soon.jpg" alt="Card image cap" style="width: 95%;" >
-            <div class="card-body text-center mt-4">
-              <h5 class="card-title">COMING SOON...</h5>
-           
-            </div>
-          </div>
-         </div>
-
-         <div class="col-md-6 col-12 col-sm-12 mt-4">
-          <div class="card bg-dark" >
-            <img class="card-img-top mx-auto mt-2" src="Images/coming soon.jpg" alt="Card image cap" style="width: 95%;" >
-            <div class="card-body text-center mt-4">
-              <h5 class="card-title">COMING SOON...</h5>
-           
-            </div>
-          </div>
-         </div>
 
 
-
-
-
-    </div>
-  </div>
-  </section>
-  <section class="bg1" id="contact">
-    <h1 class="text-center text-white">CONTACT ME</h1>
-    <hr style="border-color: crimson; width: 95%;">
-    <div class="container">
-    <form class=" text-white" id="submit-form"  action="">
-      <div class="form-row">
-        <div class="col-md-12">
-          <label for="inputEmail4" class="text-white " >Name <span class="text-danger">*</span></label>
-        </div>
-        <div class="form-group col-md-6 col-6 col-sm-6">
-         
-          <input type="text" class="form-control" id="inputEmail4"  name="Firstname"  style="width: 97%;height: 4rem;">
-          <p class="text-white">First</p>
-        </div>
-        <div class="form-group col-md-6  col-6 col-sm-6">
-          
-          <input type="text" class="form-control" id="inputPassword4"  name="Surname"   style="width: 97%;height: 4rem;">
-          <p class="text-white">Last</p>
-        </div>
-      </div>
-      <div class="form-group">
-    <label for="inputEmail" class="text-white">Email <span class="text-danger">*</span> </label>
-        <input type="email" class="form-control" id="inputAddress" name="Email" style="width: 99%;height: 4rem;">
-      </div>
-      <div class="form-group">
-        <label for="inputMessage" class="text-white">Message <span class="text-danger">*</span> </label>
-        <textarea    class="form-control" id="inputAddress2"   name="Message"  style="width: 99%;height: 10rem;" ></textarea>
-      </div>
-    
-      <button type="submit" class=" btn text-white mb-2 btn2">SEND</button>
-    </form>
-  </section>
-  <footer class="bg text-center text-white pt-4 sticky-bottom" >
-          <p style="font-family: 'Poppins', sans-serif;" >Created by <span style="color: crimson;  ">Rishal</span> | <span
-          class="far fa-copyright"></i></span> 2021 All rights
-          reserved.</span></p>
-               <div  style=" display: flex;justify-content: center;align-items: center"  >
-    
-               <a href="https://www.instagram.com/rishal_richzz/"> <button type="button" class="btn btn-outline-primary rounded-circle-1 pt-2 "  >
-                  <svg   xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-          </svg>
-                  
-                </button></a> 
-
-               <a href="https://www.facebook.com/rishal.coutinho.98/"> <button type="button" class="btn btn-outline-primary rounded-circle-1 pt-2 ml-4 " >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>
-                  
-                </button></a>
-
-
-               <a href="https://www.linkedin.com/in/rishal-p-144673211/"> <button type="button" class="btn btn-outline-primary rounded-circle-1 pt-2 ml-4 " >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg>
-
-
-          
-                  
-                </button>   
-              </a> 
-             <a href="https://github.com/Rishal-pc7"> <button type="button" class="btn btn-outline-primary rounded-circle-1 pt-2 ml-4" >
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                  </svg>
-                  
-                </button></a> 
-              
-
-             
-                  
-             
-                  
-                          
-          
-          
-          </div>
    
- 
+
+   
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3>Contact <span>Me</span></h3>
+        
+        </div>
+
+    
+    
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                
+                <h4><i style="color: crimson" class="icofont-google-map"></i> Location:</h4>
+                
+                <p>Nilambur,Malappuram,Kerala</p>
+              </div>
+
+              <div class="email">
+                <h4><i style="color: crimson" class="icofont-envelope"></i> Email:</h4>
+                
+                
+                <p>rishal01010@gmail.com</p>
+              </div>
+
+             
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="" id="enquiryForm" >
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"  />
+                 
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"  />
+                  
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
+                
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                
+              </div>
+            
+              <div class="text-center"><button type="submit" class="btn btn-danger">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+    
        
 
+  </main>
+  
+
+  
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+    
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><a href="https://github.com/Rishal-pc7">Rishal</a></strong>. All Rights Reserved
+        </div>
+      
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
         
-        </footer>
+        <a href="https://m.facebook.com/rishal.coutinho.98" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/rishal_richzz/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        
+        <a href="https://www.linkedin.com/in/rishal-p-144673211" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        
+        <a href="https://github.com/Rishal-pc7"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
 
 
-<script src="Libraries/jquery/jquery.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/da8fffc24f.js" crossorigin="anonymous"></script>
-<script src="index.js"></script>
-<script>
-  $("#submit-form").submit((e)=>{
-      e.preventDefault()
-      $.ajax({
-          url:"https://script.google.com/macros/s/AKfycbzHAig4v_CgmYbtSL-fcc5__-bcLJve5FbxBOc1/exec",
-          data:$("#submit-form").serialize(),
-          method:"post",
-          success:function (response){
-              alert("Form submitted successfully")
-              window.location.reload()
-              //window.location.href="https://google.com"
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+  
+  <script>
+  $(document).ready(function(){
+    $('#enquiryForm').validate({
+      rules:{
+        name:{
+          required:true,
+          minlength:4
+        },
+        email:{
+          required:true,
+          email:true
+        },
+        subject:{
+          required:true,
+          minlength:5
+        },
+        message:{
+          required:true,
+          minlength:8
+        }
+      },
+          submitHandler: function(enquiryForm) {
+          $.ajax({
+          url: 'https://script.google.com/macros/s/AKfycbxieK10S8lAFSmFM4wDSaBmR5tMO3k7rPnKgOmo/exec',
+          method: 'post',
+          data: $(enquiryForm).serialize(),
+          success: function(response) {
+             alert('Message Sent Successfully')
+                    
+                    window.location.reload()
+            
           },
           error:function (err){
-              alert("Something Error")
-
+                    alert("Something Error")
+    
+                }
+          });
           }
-      })
+    })
   })
+
+
 </script>
 
-
-
 </body>
+
 </html>
+
+
